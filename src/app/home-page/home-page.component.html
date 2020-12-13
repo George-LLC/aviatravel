@@ -1,0 +1,75 @@
+<div id="carousel" class="container">
+
+  <div class="row">
+
+    <div class="col-2">
+
+    </div>
+
+    <div class="col-8">
+
+        <p-carousel [value]="incoming" styleClass="custom-carousel" [numVisible]="4" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
+          <p-header>
+            <h4>Our hot incoming tours</h4>
+          </p-header>
+          <ng-template let-place pTemplate="item">
+            <div class="car-details">
+              <div class="p-grid p-nogutter" routerLink="/incoming" style="cursor: pointer">
+                <div class="p-col-12">
+                  <!--<img style="cursor: pointer; width: 100%; height: 125px" src="assets/images/places/{{car.name}}.jpg" routerLink="/incoming"/>-->
+                  <img style="width: 100%; height: 125px" src="{{place.placePhoto[0]}}"/>
+                </div>
+                <div class="p-col-12 car-data">
+                  <div class="car-title">{{place.placeName}}</div>
+                  <div class="car-subtitle">{{place.tourPrice}} | {{place.tourCurrency}}</div>
+
+                  <div class="car-buttons">
+                    <button pButton type="button" class="ui-button-secondary" icon="pi pi-search"></button>
+                    <button pButton type="button" class="ui-button-secondary" icon="pi pi-star"></button>
+                    <button pButton type="button" class="ui-button-secondary" icon="pi pi-cog"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </p-carousel>
+
+
+
+        <p-carousel [value]="places" styleClass="custom-carousel" [numVisible]="4" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
+          <p-header>
+            <h4>Our hot outgoing tours</h4>
+          </p-header>
+          <ng-template let-car pTemplate="item">
+            <div class="car-details">
+              <div class="p-grid p-nogutter">
+                <div class="p-col-12">
+                  <img style="width: 100%; height: 125px" src="assets/images/places/{{car.name}}.jpg" />
+                </div>
+                <div class="p-col-12 car-data">
+                  <div class="car-title">{{car.name}}</div>
+                  <div class="car-subtitle">{{car.year}} | {{car.color}}</div>
+
+                  <div class="car-buttons">
+                    <button pButton type="button" class="ui-button-secondary" icon="pi pi-search"></button>
+                    <button pButton type="button" class="ui-button-secondary" icon="pi pi-star"></button>
+                    <button pButton type="button" class="ui-button-secondary" icon="pi pi-cog"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </p-carousel>
+
+    </div>
+
+
+    <div class="col-2">
+
+
+    </div>
+
+
+
+  </div>
+</div>

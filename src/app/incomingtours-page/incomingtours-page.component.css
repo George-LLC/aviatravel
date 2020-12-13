@@ -1,0 +1,55 @@
+.custombar1 .ui-scrollpanel-wrapper {
+  border-right: 9px solid #f4f4f4;
+}
+
+.custombar1 .ui-scrollpanel-bar {
+  background-color: #1976d2;
+  opacity: 1;
+  transition: background-color .3s;
+}
+
+.custombar1 .ui-scrollpanel-bar:hover {
+  background-color: #135ba1;
+}
+
+.container{
+  background-color: #f4f4f4;
+  max-width: 100%;
+  position: absolute;
+  margin-top: 59px;
+}
+
+body .ui-dataview .ui-dataview-content{
+  background-color: #f4f4f4!important;
+}
+
+.filter-container {
+  text-align: center;
+}
+
+.row{
+  margin-top: 10px;
+}
+
+.advertisements{
+  max-width: 100%;
+}
+
+.showSelectElement{
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.showSelectElement:hover{
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.inputSearch{
+  width: 90%;
+  border-radius: 3px;
+  padding: 0.429em;
+  font-size: 14px;
+  color: #333333;
+}
+

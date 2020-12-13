@@ -1,0 +1,120 @@
+{
+
+  "incoming": [
+    {
+      "id": 1,
+      "placeName": "Գառնի",
+      "placePhoto": [
+        "assets/images/incoming/Գառնի/Գառնի.jpg",
+        "assets/images/incoming/Գառնի/Գառնի2.jpg",
+        "assets/images/incoming/Գառնի/Գառնի3.jpg",
+        "assets/images/incoming/Գառնի/Գառնի.jpg",
+        "assets/images/incoming/Գառնի/Գառնի2.jpg",
+        "assets/images/incoming/Գառնի/Գառնի3.jpg",
+        "assets/images/incoming/Գառնի/Գառնի.jpg",
+        "assets/images/incoming/Գառնի/Գառնի2.jpg",
+        "assets/images/incoming/Գառնի/Գառնի3.jpg",
+        "assets/images/incoming/Գառնի/Գառնի2.jpg",
+        "assets/images/incoming/Գառնի/Գառնի3.jpg",
+        "assets/images/incoming/Գառնի/Գառնի.jpg",
+        "assets/images/incoming/Գառնի/Գառնի2.jpg",
+        "assets/images/incoming/Գառնի/Գառնի3.jpg",
+        "assets/images/incoming/Գառնի/Գառնի2.jpg",
+        "assets/images/incoming/Գառնի/Գառնի3.jpg",
+        "assets/images/incoming/Գառնի/Գառնի.jpg",
+        "assets/images/incoming/Գառնի/Գառնի2.jpg",
+        "assets/images/incoming/Գառնի/Գառնի3.jpg"
+      ],
+      "placeAbout": "About Garni",
+      "placeFromYerevan": 40,
+      "tourTime": "3 hours",
+      "tourPrice": 15000,
+      "tourCurrency": "DRAM"
+    },
+    {
+      "id": 2,
+      "placeName": "Տաթև",
+      "placePhoto": [
+        "assets/images/incoming/Տաթև/Տաթև.jpg",
+        "assets/images/incoming/Տաթև/Տաթև2.jpg"
+      ],
+      "placeAbout": "Տաթև The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding. His beloved son Michael has just come home from the war, but does not intend to become part of his father's business. Through Michael's life the nature of the family business becomes clear. The business of the family is justlike the head of the family, kind and benevolent to those who give respect, but given to ruthless violence whenever anything stands against the good of the family. The story begins as Don Vito Corleone, the head",
+      "placeFromYerevan": 180,
+      "tourTime": "9 hours",
+      "tourPrice": 50000,
+      "tourCurrency": "DRAM"
+    },
+    {
+      "id": 3,
+      "placeName": "Գեղարդ",
+      "placePhoto": ["assets/images/incoming/Գեղարդ/Գեղարդ.jpg"],
+      "placeAbout": "Գեղարդ The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding. His beloved son Michael has just come home from the war, but does not intend to become part of his father's business. Through Michael's life the nature of the family business becomes clear. The business of the family is justlike the head of the family, kind and benevolent to those who give respect, but given to ruthless violence whenever anything stands against the good of the family. The story begins as Don Vito Corleone, the head",
+      "placeFromYerevan": 45,
+      "tourTime": "3 hours",
+      "tourPrice": 15000,
+      "tourCurrency": "DRAM"
+    },
+    {
+      "id": 4,
+      "placeName": "Սևան",
+      "placePhoto": ["assets/images/incoming/Սևան/Սևան.jpg"],
+      "placeAbout": "Սևան The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding. His beloved son Michael has just come home from the war, but does not intend to become part of his father's business. Through Michael's life the nature of the family business becomes clear. The business of the family is justlike the head of the family, kind and benevolent to those who give respect, but given to ruthless violence whenever anything stands against the good of the family. The story begins as Don Vito Corleone, the head",
+      "placeFromYerevan": 60,
+      "tourTime": "3 hours",
+      "tourPrice": 20000,
+      "tourCurrency": "DRAM"
+    }
+  ],
+
+  "outcoming": [
+    {
+      "id": 1,
+      "CountryName": "Vietnam",
+      "placeName": "Da-nang-ba-na-hills",
+      "placePhoto": [
+        "assets/images/outcoming/Vietnam/Da-nang-ba-na-hills/Da-nang-ba-na-hills.jpg"
+      ],
+      "placeAbout": "Ba Na Hills Golden Bridge is around 150 meters long and is constructed for pedestrians in 2018. This bridge opened in June 2018 and immediately became famous because of its design.",
+      "placeFromYerevan": "45 km",
+      "tourTime": "3 hours",
+      "tourPrice": "45000",
+      "tourCurrency": "DRAM"
+    },
+    {
+      "id": 2,
+      "placeName": "Egypt",
+      "placePhoto": ["assets/images/outcoming/Egypt/Burger/egypt.jpg"],
+      "placeAbout": "Egypt The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding. His beloved son Michael has just come home from the war, but does not intend to become part of his father's business. Through Michael's life the nature of the family business becomes clear. The business of the family is justlike the head of the family, kind and benevolent to those who give respect, but given to ruthless violence whenever anything stands against the good of the family. The story begins as Don Vito Corleone, the head",
+      "placeFromYerevan": "45 km",
+      "tourTime": "9 hours",
+      "tourPrice": "50000",
+      "tourCurrency": "DRAM"
+    },
+    {
+      "id": 3,
+      "placeName": "Գեղարդ",
+      "placePhoto": ["assets/images/incoming/Գեղարդ/Գեղարդ.jpg"],
+      "placeAbout": "Գեղարդ The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding. His beloved son Michael has just come home from the war, but does not intend to become part of his father's business. Through Michael's life the nature of the family business becomes clear. The business of the family is justlike the head of the family, kind and benevolent to those who give respect, but given to ruthless violence whenever anything stands against the good of the family. The story begins as Don Vito Corleone, the head",
+      "placeFromYerevan": "45 km",
+      "tourTime": "3 hours",
+      "tourPrice": "15000",
+      "tourCurrency": "DRAM"
+    },
+    {
+      "id": 4,
+      "placeName": "Սևան",
+      "placePhoto": ["assets/images/incoming/Սևան/Սևան.jpg"],
+      "placeAbout": "Սևան The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding. His beloved son Michael has just come home from the war, but does not intend to become part of his father's business. Through Michael's life the nature of the family business becomes clear. The business of the family is justlike the head of the family, kind and benevolent to those who give respect, but given to ruthless violence whenever anything stands against the good of the family. The story begins as Don Vito Corleone, the head",
+      "placeFromYerevan": "45 km",
+      "tourTime": "3 hours",
+      "tourPrice": "20000",
+      "tourCurrency": "DRAM"
+    }
+  ],
+
+
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}

@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div style="width: 110px">
+    <a class="navbar-brand" href="#">LOGO</a>
+    <a href="tel: +374 94 01 05 06"><img src="../../assets/images.png" alt="phone" style="width: 35%; length: 35%"></a>
+
+  </div>
+  <button style="float: right" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Outgoing tours</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/incoming">Incoming tours</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Why prefer Armenia?</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About us
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Contact</a>
+          <a class="dropdown-item" href="#">Our Agancy</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Our tours</a>
+        </div>
+      </li>
+      <li class="nav-item" style="margin-left: 3px">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="../../assets/images/languageFlag/en.jpg" alt="" height="25" width="50" (click)="changeLanguage('en')" [hidden]="flag1">
+          <img src="../../assets/images/languageFlag/hy.jpg" alt="" height="25" width="50" (click)="changeLanguage('hy')" [hidden]="flag2">
+          <img src="../../assets/images/languageFlag/ru.jpg" alt="" height="25" width="50" (click)="changeLanguage('ru')" [hidden]="flag3">
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+          <img src="../../assets/images/languageFlag/hy.jpg" alt="" height="25" width="50" (click)="changeLanguage('hy'); flag('flag2')">
+          <div class="dropdown-divider"></div>
+          <img src="../../assets/images/languageFlag/ru.jpg" alt="" height="25" width="50" (click)="changeLanguage('ru'); flag('flag3')">
+          <div class="dropdown-divider"></div>
+          <img src="../../assets/images/languageFlag/en.jpg" alt="" height="25" width="50" (click)="changeLanguage('en'); flag('flag1')">
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>

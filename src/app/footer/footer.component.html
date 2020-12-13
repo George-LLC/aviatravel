@@ -1,0 +1,63 @@
+
+<!--&lt;!&ndash;<div style="position: relative">&ndash;&gt;-->
+
+
+
+<!--&lt;!&ndash;<p>&ndash;&gt;-->
+  <!--&lt;!&ndash;You can set specific index to start from it&ndash;&gt;-->
+<!--&lt;!&ndash;</p>&ndash;&gt;-->
+<!--&lt;!&ndash;<carousel [itemsPerSlide]="itemsPerSlide"&ndash;&gt;-->
+          <!--&lt;!&ndash;[singleSlideOffset]="singleSlideOffset"&ndash;&gt;-->
+          <!--&lt;!&ndash;[startFromIndex]="6"&ndash;&gt;-->
+          <!--&lt;!&ndash;[interval]="false">&ndash;&gt;-->
+  <!--&lt;!&ndash;<slide *ngFor="let slide of slides; let index=index">&ndash;&gt;-->
+    <!--&lt;!&ndash;<img [src]="slide.image" alt="image slide" style="display: block; width: 100%;">&ndash;&gt;-->
+    <!--&lt;!&ndash;<div class="carousel-caption">&ndash;&gt;-->
+      <!--&lt;!&ndash;<h4>Slide {{index}}</h4>&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+  <!--&lt;!&ndash;</slide>&ndash;&gt;-->
+<!--&lt;!&ndash;</carousel>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--<button type="button" class="btn btn-primary" (click)="openModal(template)">Open first modal</button>-->
+
+<!--<ng-template #template>-->
+  <!--<div class="modal-header">-->
+    <!--<h4 class="modal-title pull-left">First modal</h4>-->
+    <!--<button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">-->
+      <!--<span aria-hidden="true">&times;</span>-->
+    <!--</button>-->
+  <!--</div>-->
+  <!--<div class="modal-body">-->
+    <!--This is a first modal-->
+    <!--<button type="button" class="btn btn-primary" (click)="openModal2(templateNested)">Open second modal</button>-->
+  <!--</div>-->
+<!--</ng-template>-->
+
+<!--<ng-template #templateNested>-->
+  <!--<div class="modal-header">-->
+    <!--<h4 class="modal-title pull-left">Second modal</h4>-->
+    <!--<button type="button" class="close pull-right" aria-label="Close" (click)="modalRef2.hide()">-->
+      <!--<span aria-hidden="true">&times;</span>-->
+    <!--</button>-->
+  <!--</div>-->
+  <!--<div class="modal-body">-->
+    <!--This is nested modal.<br>-->
+    <!--<button *ngIf="modalRef" type="button" class="btn btn-danger" (click)="closeFirstModal()">Close first modal</button>-->
+  <!--</div>-->
+<!--</ng-template>-->
+
+
+<!--<carousel #gh (click)="toggleAccordian(gh)">-->
+  <!--<slide>-->
+    <!--<img src="assets/images/incoming/Գառնի/Գառնի.jpg" alt="first slide" style="display: block; width: 100%;">-->
+  <!--</slide>-->
+  <!--<slide>-->
+    <!--<img src="assets/images/incoming/Գառնի/Գառնի2.jpg" alt="second slide" style="display: block; width: 100%;">-->
+  <!--</slide>-->
+  <!--<slide>-->
+    <!--<img src="assets/images/incoming/Գառնի/Գառնի3.jpg" alt="third slide" style="display: block; width: 100%;">-->
+  <!--</slide>-->
+<!--</carousel>-->
